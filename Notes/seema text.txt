@@ -1,0 +1,9 @@
+sr	emp name	sub1	sub2	practical	sub3 	total
+1	synny	78	78	73	21	250
+2	sushant	58	58	65	19	200
+3	purthvi	89	45	64	17	215
+4	vijay	65	65	69	15	214
+5	akshay	45	25	78	13	161
+6	viraj	35	78	79	11	203
+7	swaraj	65	95	74	9	243
+8	dnyanesh	69	86	75	7	237

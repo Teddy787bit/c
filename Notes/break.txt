@@ -1,0 +1,14 @@
+-------Break--------
+
+sy
+break;
+
+eg
+
+for(i=0;i<=10;i++){
+	printf("%d",i);
+	if(i=5){
+		printf("\n Break used")
+		break;
+	}
+}

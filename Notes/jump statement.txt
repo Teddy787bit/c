@@ -1,0 +1,14 @@
+goto statement
+continue
+break
+exit
+synatx:-
+
+goto label;
+
+label:
+//code
+
+2)continue
+
+continue;

@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+main()
+{
+clrscr();
+FILE *fp1,*fp2,*fp3;
+int i,no;
+fp1=fopen("input","w");
+pritnf("\n plzz Enter the list and -1 at the end");
+do{
+scanf("%d",&no);
+if(no==-1)
+{
+	break;
+}
+else{
+	putw(no,fp1);
+}
+}while(1);
+fclose(fp1);
+fp1=open("input","r");
+fp2=open("odd","w");
+fp3=open("even","w");
+do{
+no=getw(fp1);
+if(no==EOF)
+{
+break;
+}
+else{
+if(no%2==0){
+put(no,fp3);
+}
+else{
+putw(no,fp2);
+}
+}while(1);
+fcloseall();
+
+}
+}

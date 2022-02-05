@@ -1,0 +1,5 @@
+union [union-tag]
+{
+datatype variable declaration;
+datatype variable declaration;
+}variable1,variable2;

@@ -1,0 +1,12 @@
+char name[6]={'P','R','A','D','I','P','\0'};
+name[6]="PRADIP";
+null ch '\0'
+Declaration:-
+sytax:-
+char variable_name[length];
+eg:-
+char name[6];
+Initializaton:-
+string_name="string";
+eg:-
+name[6]="PRADIP";

@@ -1,0 +1,16 @@
+for(initializtion;condition;increment/decrement){
+	//Code;
+}
+
+for(i=0;i<=10;i++){
+	printf("\n %d",i);
+}
+
+Nested for loop
+for(initializtion;condition;increment/decrement){
+
+	for(initializtion;condition;increment/decrement){
+	//Code;
+	}
+}
+

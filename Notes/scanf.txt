@@ -1,0 +1,4 @@
+int a;
+scanf("<format Specifier>",&variable_name,&variable_name1);
+
+scanf("%d %d",&a,&b);

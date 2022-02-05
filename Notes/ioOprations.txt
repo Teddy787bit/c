@@ -1,0 +1,10 @@
+Ouput:-
+syntax:-
+printf("string <format specifier>",variable);
+
+printf("Value of a is :- %d",a);
+
+Input:-
+scanf("<format specifier>",&variable);
+eg:-
+scanf("%d",&a);

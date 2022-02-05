@@ -1,0 +1,33 @@
+(.)Array Declaration
+	data_type array_name[size_of_array];
+
+eg:-
+int phonenum[9];
+float num[9];
+
+(.)Array Initialization
+	Type 1:-
+array_name[size_of_array]={val1,val2,valn};
+
+eg:-
+phonenum[9]={8,3,2,1,4,5,6,7,8,6};
+
+	Type 2:- Using for loop
+for(i=0;i<=<size_of_array>;i++)
+{
+	scanf("%d",&array_name[i]);
+}
+
+(.)Printing Array
+
+for(i=0;i<=<size_of_array>;i++)
+{
+	printf(" array is:-%d",array_name[i]);
+}
+
+(.)Accessing Array Elements
+-we can access array elements using its index number.
+syntax:-
+array_name[index];
+eg:-
+phonenum[2]=3;

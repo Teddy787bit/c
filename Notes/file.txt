@@ -1,0 +1,28 @@
+File:- 
+syntax:-
+
+FILE  *ptr;
+
+File Opening
+
+file_ptr =fopen("Filename.type","mode");
+
+fopen("number.txt","w");
+
+syntax:-
+
+fclose(file_pointer);
+
+//fclose all();
+
+eg:-
+fclose(ptr);
+
+I/O functions:-
+
+fprintf(pointer_name," Format specifer",argument);
+
+fprintf(ptr,"%d",a);
+
+fscanf(pointer_name,"Format specifier",variable_name);
+fscanf(ptr,"%d",&a);

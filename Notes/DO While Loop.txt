@@ -1,0 +1,15 @@
+Syn:-
+
+do{
+	//statements
+	//increment/decrement
+}while(condition);
+
+
+eg:-
+
+int i=0;
+do{
+i++;
+printf("\n %d",i);
+}while(i<=10);

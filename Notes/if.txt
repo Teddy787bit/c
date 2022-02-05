@@ -1,0 +1,11 @@
+Sy:-
+
+if(condition){  
+	//code;
+}
+comparision,checking if grater then or less then,checking if match particular condition
+
+==,<,>,<=,>=, 
+ && =  condition1 && condition2=T
+ || = condition1 || condition2=T
+ not T-F

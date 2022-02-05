@@ -1,0 +1,33 @@
+----------Functions------
+Syntax:-
+
+Function Defination:-
+	function_type  function_name(parameters){
+		//Code
+	}
+
+Function Declaration/prototyping:-
+	function_type  function_name();
+
+Function Call:-
+	function_name();
+
+==========EG==============
+#include<stdio.h>
+int add(); //Function Declaration/prototyping
+
+int main()
+{
+	int a,b,c;
+	printf("\n Enter 2 number:-");
+	scanf("%d %d",&a,&b);
+	c=add(a,b);  //Function Calling
+	printf("\n Addition of 2 number is :-",c)
+	return 0;
+}
+
+//Function Defination:-
+int add(int a,int b)
+{
+	return a+b;
+}

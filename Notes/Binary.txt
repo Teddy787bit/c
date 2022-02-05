@@ -1,0 +1,7 @@
+Operator 			Description
+&(Binary And)	Copies a bit to the result if it esxist in both operand
+|(Binary Or)	Copies a bit to the result if it esxist in either operand
+^(Binary Xor)	Copies a bit to the result if it set in one operand but not in both
+~(Binary one)	Flips bite
+<<(Binary left shift) Move value of operand left by given value i.e a<<2
+>>(Binary right shift) Move value of operand right by given value i.e a<<2	

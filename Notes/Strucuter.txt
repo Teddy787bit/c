@@ -1,0 +1,25 @@
+
+Declaration:-
+
+struct strucutre_name{
+datatype member/variable;
+datatype member/variable;
+};
+
+eg:
+
+struct emp{
+int id;
+char name[10];
+};
+
+Variable Declartion:-
+struct strucutre_name variable_name;
+eg:-
+struct emp e;
+
+Member access:-
+
+variable_name.member_name;
+
+e.id=101;
