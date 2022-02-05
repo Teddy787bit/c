@@ -1,20 +1,15 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    system("cls");
-    int a;
-    float b;
-    char c;
-    printf("\n Enter the value of a:- in integer");
-    scanf("%d", &a);
-    printf("\n Enter the value of b in float:-");
-    scanf("%f", &b);
-    printf("\n Enter the value of c in char:-");
-    scanf("%c", &c);
+    int i,j;
+    for(j=0;j<=4;j++)
+    {
+        printf("\n");
+        for (i = 0; i<=4; i++)
+        {
+            printf("*");
+        }
+    }
+return 0;
 
-     printf("\n Value of a is :- %d",a);
-     printf("\n Value of b is :- %f",b);
-     printf("\n Value of a is :- %c",c);
-    return 0;
 }

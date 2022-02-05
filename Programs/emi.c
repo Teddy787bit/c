@@ -1,28 +1,22 @@
 #include<stdio.h>
-#include<stdlib.h>
-void emi(int p,float r,int t); //Use this function to find flat-rate of Intrest and EMI
-void main(){
-system("cls");
-	int p,t;
-	float r;
-	printf("\n Enter the loan amount:-");
-	scanf("%d",&p);
-	printf("\n Enter flat-rate of interest:-");
-	scanf("%f",&r);
-	printf("\n Enter duration of loan in terms of months(i.e 12months:-12):-");
-	scanf("%d",&t);
-	emi(p,r,t);
-	//even();
-}
-
-
-void emi(int p,float r,int t)
+void emic(int p,int tp,int t,int i,int emi,float r);
+void main()
 {
-int fp,i,p_emi;
-i=p/100*r;
-fp=p+i;
-printf("\n Final amount to be paid is :-%d",fp);
-p_emi=fp/t;
-printf("\n Every month EMI will be:- %d for %d Months",p_emi,t);
+		int p,tp,t,i,emi;
+		float r;
+		printf("\n Calculate Flat-rate EMI");
+		printf("\n Enter Principal amount:-");
+		scanf("%d",&p);
+		printf("\n Enter Time period in months 'eg:-12month':-");
+		scanf("%d",&t);
+		printf("\n Enter rate of intrest:-");
+		scanf("%f",&r);
+		emic(p,tp,t,i,emi,r);
+	}
+void emic(int p,int tp,int t,int i,int emi,float r){
+	 i=p/100*r;
+         tp=p+i;
+         emi=tp/12;
+         printf("\n Intrest of principal amount %drs is :- %drs\n",p,i);
+         printf("\n Total Payble amount is %d\n EMI per month will be %drs\n",tp,emi);
 }
-

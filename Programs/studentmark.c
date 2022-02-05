@@ -5,17 +5,16 @@ int main()
 {
     system("cls");
     int r, c, n, i, j;
-
     printf("\n Enter the number of students:-");
     scanf("%d", &r);
     printf("\n Enter the number of Subs:-");
     scanf("%d", &c);
-   // c++;
-   // printf("\n%d",c);
+    c++;
+    printf("\n%d",c);
     int sub[r][c];
     for (i = 0; i < r; i++)
     {
-        for (j = 0; j <  c; j++)
+        for (j = 0; j < c; j++)
         {
             printf("[%d][%d]", i, j);
 

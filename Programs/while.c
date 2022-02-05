@@ -1,27 +1,16 @@
 #include<stdio.h>
-int main(){
-    int i=0;
-while(i<10){  
-i++;
-    printf("\n%d",i); 
-}
-return 0;
-}
+void main(){
+    int k=1,i,j;
+    while(k<=10){
+        for (i = 0; i <=k; i++)
+        {
+            for ( j = 0; j <=i; j++)
+            {
+                printf("%d",&k);
 
-/**
- * @brief Output
- * C:\Users\Administrator\Desktop\Pradip\C>while
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
- * 
- */
+            }
+            printf("\n");
+        }
+        k++;
+    }
+}
